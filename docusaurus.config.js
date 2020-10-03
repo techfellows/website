@@ -1,18 +1,18 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://techfellows.github.io.",
+  title: "TechFellows",
+  tagline: "Build for Web",
+  url: "https://techfellows.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/favicon.ico",
+  favicon: "img/techfellows.jpg",
   organizationName: "techfellows", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "TechFellows",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/techfellows.jpg",
       },
       items: [
         {
@@ -23,7 +23,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/techfellows/website",
           label: "GitHub",
           position: "right",
         },
@@ -33,32 +33,19 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discordapp.com/invite/",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/",
             },
           ],
         },
@@ -71,12 +58,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/techfellows/website",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} TechFellows.`,
     },
   },
   presets: [
@@ -87,13 +74,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/techfellows/website/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/techfellows/website/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
