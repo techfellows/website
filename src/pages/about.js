@@ -15,7 +15,7 @@ function about() {
             src={"/static/img/Mohammed.jfif"}
             alt="mohammed image"
           />
-          <h3 className="dev-name">Mohammed / Front End Engineer</h3>
+          <h3 className="dev-name">Mohamed / Front End Engineer</h3>
           <p className="links">
             <a href="https://github.com/mohamedsgap">Github</a>
             <a href="https://www.linkedin.com/in/mohamedsgap/">Linkedin</a>
