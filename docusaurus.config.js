@@ -27,6 +27,7 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
+        { to: "/about", label: "About us", position: "left" },
       ],
     },
     footer: {
