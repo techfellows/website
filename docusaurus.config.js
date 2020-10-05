@@ -1,8 +1,8 @@
 module.exports = {
   title: "TechFellows",
   tagline: "Build for Web",
-  url: "https://techfellows.github.io",
-  baseUrl: "/website/",
+  url: "http://techfellows.xyz",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/techfellows.jpg",
   organizationName: "techfellows", // Usually your GitHub org/user name.
