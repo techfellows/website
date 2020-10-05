@@ -12,7 +12,9 @@ function about() {
         <div class="div2">
           <img
             className="daniel-img"
-            src={"/static/img/Mohammed.jfif"}
+            src={
+              "https://avatars0.githubusercontent.com/u/30293804?s=460&u=68a54bcadfe204052274297e0df1e672808b7b5f&v=4"
+            }
             alt="mohammed image"
           />
           <h3 className="dev-name">Mohamed / Front End Engineer</h3>
