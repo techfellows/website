@@ -8,11 +8,11 @@ import DanielImage from '../images/daniel.jpg'
 function about() {
   return (
     <Layout title="About">
-      <div class="parent">
-        <div class="div1">
+      <div className="parent">
+        <div className="div1">
           <h1 className="about-header">Who are we ❓</h1>
         </div>
-        <div class="div2">
+        <div className="div2">
           <img
             className="daniel-img"
             src={
@@ -41,7 +41,7 @@ function about() {
             Hosting
           </h3>
         </div>
-        <div class="div3">
+        <div className="div3">
           <img
             className="daniel-img"
             src={
@@ -70,7 +70,7 @@ function about() {
             Hosting
           </h3>
         </div>
-        <div class="div4">
+        <div className="div4">
           <div className="tech">
             <h3>Thank you for visiting</h3>
           </div>
