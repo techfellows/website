@@ -43,14 +43,16 @@
   display: flex;
   justify-content: center;
   font-size: 30px;
-  margin-top: 2%;
+  margin-top: 9%;
 }
 .div2 {
   grid-area: 2 / 2 / 4 / 3;
+  /* padding-bottom: 20px; */
 }
 .div3 {
   grid-area: 2 / 4 / 4 / 5;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+  /* background-color: lawngreen; */
 }
 .div4 {
   grid-area: 4 / 2 / 6 / 5;

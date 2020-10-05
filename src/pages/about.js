@@ -17,10 +17,20 @@ function about() {
           />
           <h3 className="dev-name">Mohammed / Front End Engineer</h3>
           <p className="links">
-            <a href="https://github.com/mohamedsgap">Github</a>
-            <a href="https://www.linkedin.com/in/mohamedsgap/">Linkedin</a>
+            <a href="https://github.com/mohamedsgap">
+              <img src="https://img.icons8.com/nolan/64/github.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/mohamedsgap/">
+              <img src="https://img.icons8.com/nolan/64/linkedin.png" />
+            </a>
+            <a href="https://twitter.com/MohamedsGap">
+              <img src="https://img.icons8.com/nolan/64/twitter-circled.png" />
+            </a>
+            <a href="https://twitter.com/devdaniel2019">
+              <img src="https://img.icons8.com/nolan/64/source-code.png" />
+            </a>
           </p>
-          <h2>Tech</h2>
+          <h2>Techninal skills </h2>
           <h3>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
@@ -34,10 +44,20 @@ function about() {
           />
           <h3 className="dev-name">Daniel / Front End Engineer</h3>
           <p className="links">
-            <a href="https://github.com/DanieIStewart">Github</a>
-            <a href="https://www.linkedin.com/in/stewart-daniel/">Linkedin</a>
+            <a href="https://github.com/DanieIStewart">
+              <img src="https://img.icons8.com/nolan/64/github.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/stewart-daniel/">
+              <img src="https://img.icons8.com/nolan/64/linkedin.png" />
+            </a>
+            <a href="https://twitter.com/devdaniel2019">
+              <img src="https://img.icons8.com/nolan/64/twitter-circled.png" />
+            </a>
+            <a href="https://www.devdaniel.co.uk/">
+              <img src="https://img.icons8.com/nolan/64/source-code.png" />
+            </a>
           </p>
-          <h2>Tech</h2>
+          <h2>Techninal skills</h2>
           <h3>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
@@ -45,7 +65,7 @@ function about() {
         </div>
         <div class="div4">
           <div className="tech">
-            <h3>Updated daily</h3>
+            <h3>Thank you for visiting</h3>
           </div>
         </div>
       </div>
