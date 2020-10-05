@@ -2,6 +2,9 @@ import React from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 
+import MohammedImage from '../images/mohammed.jpg'
+import DanielImage from '../images/daniel.jpg'
+
 function about() {
   return (
     <Layout title="About">
@@ -13,7 +16,7 @@ function about() {
           <img
             className="daniel-img"
             src={
-              "https://avatars0.githubusercontent.com/u/30293804?s=460&u=68a54bcadfe204052274297e0df1e672808b7b5f&v=4"
+              MohammedImage
             }
             alt="mohammed image"
           />
@@ -42,7 +45,7 @@ function about() {
           <img
             className="daniel-img"
             src={
-              "https://avatars1.githubusercontent.com/u/42270375?s=460&u=18902b74e603c9de071f5321788fc1884e2a93fb&v=4"
+              DanielImage  
             }
             alt="Daniel image"
           />
