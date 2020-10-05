@@ -41,7 +41,9 @@ function about() {
         <div class="div3">
           <img
             className="daniel-img"
-            src={"/static/img/Daniel.jfif"}
+            src={
+              "https://avatars1.githubusercontent.com/u/42270375?s=460&u=18902b74e603c9de071f5321788fc1884e2a93fb&v=4"
+            }
             alt="Daniel image"
           />
           <h3 className="dev-name">Daniel / Front End Engineer</h3>
