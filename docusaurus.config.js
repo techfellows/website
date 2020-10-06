@@ -18,7 +18,7 @@ module.exports = {
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "Tutorials",
           position: "left",
         },
         { to: "blog", label: "Blog", position: "left" },
@@ -75,7 +75,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/techfellows/website/edit/master/website/",
+            "https://github.com/techfellows/website/edit/master/website/docs",
         },
         blog: {
           showReadingTime: true,
