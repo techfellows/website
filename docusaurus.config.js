@@ -1,7 +1,7 @@
 module.exports = {
   title: "TechFellows",
   tagline: "Build for Web",
-  url: "https://mohamedsgap.github.io'",
+  url: "https://techfellows.github.io'",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/techfellows.jpg",
