@@ -112,3 +112,7 @@
   padding: 10px;
   cursor: hand;
 }
+
+html[data-theme="dark"] .navbar__logo {
+  filter: invert(100%);
+}
