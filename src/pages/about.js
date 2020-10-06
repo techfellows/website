@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Image from "@theme/IdealImage";
 import "../css/custom.css";
 
 function about() {
@@ -10,10 +11,10 @@ function about() {
           <h1 className="about-header">Who are we ❓</h1>
         </div>
         <div className="div2">
-          <img
+          <Image
             className="daniel-img"
-            src={"../../static/img/Mohammed.jpg"}
-            alt="mohammed image"
+            img={require("../../static/img/Mohammed.jpg")}
+            alt="Mohamed-Img"
           />
           <h3 className="dev-name">Mohamed / Front End Engineer</h3>
           <p className="links">
@@ -26,7 +27,7 @@ function about() {
             <a href="https://twitter.com/MohamedsGap">
               <img src="https://img.icons8.com/nolan/64/twitter-circled.png" />
             </a>
-            <a href="https://twitter.com/devdaniel2019">
+            <a href="https://twitter.com/mohamedsgap">
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
@@ -37,10 +38,10 @@ function about() {
           </h3>
         </div>
         <div className="div3">
-          <img
+          <Image
             className="daniel-img"
-            src={"../../static/img/Daniel.jpg"}
-            alt="Daniel image"
+            img={require("../../static/img/Daniel.jpg")}
+            alt="Mohamed-Img"
           />
           <h3 className="dev-name">Daniel / Front End Engineer</h3>
           <p className="links">
