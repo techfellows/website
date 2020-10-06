@@ -1,11 +1,21 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Image from "@theme/IdealImage";
 import "../css/custom.css";
-import MoImg from "../../static/img/Mohammed.jpg";
-import DanImg from "../../static/img/Daniel.jpg";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
+const imgProfiles = {
+  mohamed: {
+    imageUrl: "img/Mohammed.jpg",
+  },
+  daniel: {
+    imageUrl: "img/Daniel.jpg",
+  },
+};
 
 function about() {
+  const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
+  const imgUrlDan = useBaseUrl(imgProfiles.daniel.imageUrl);
+
   return (
     <Layout title="About">
       <div className="parent">
@@ -13,7 +23,7 @@ function about() {
           <h1 className="about-header">Who are we ❓</h1>
         </div>
         <div className="div2">
-          <Image className="daniel-img" img={MoImg} alt="Mohamed-Img" />
+          <img className="daniel-img" src={imgUrlMo} alt="Mohamed-Img" />
           <h3 className="dev-name">Mohamed / Front End Engineer</h3>
           <p className="links">
             <a href="https://github.com/mohamedsgap">
@@ -36,7 +46,7 @@ function about() {
           </h3>
         </div>
         <div className="div3">
-          <Image className="daniel-img" img={DanImg} alt="Mohamed-Img" />
+          <img className="daniel-img" src={imgUrlDan} alt="Mohamed-Img" />
           <h3 className="dev-name">Daniel / Front End Engineer</h3>
           <p className="links">
             <a href="https://github.com/DanieIStewart">
