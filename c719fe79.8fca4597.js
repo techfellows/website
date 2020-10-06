@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{73:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"tech-fellows","name":"techfellows","count":1,"permalink":"/blog/tags/tech-fellows"}')}}]);
