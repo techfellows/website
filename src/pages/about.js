@@ -2,9 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 
-import MohammedImage from '../images/mohammed.jpg'
-import DanielImage from '../images/daniel.jpg'
-
 function about() {
   return (
     <Layout title="About">
@@ -15,9 +12,7 @@ function about() {
         <div className="div2">
           <img
             className="daniel-img"
-            src={
-              MohammedImage
-            }
+            src={"../../static/img/Mohammed.jpg"}
             alt="mohammed image"
           />
           <h3 className="dev-name">Mohamed / Front End Engineer</h3>
@@ -44,9 +39,7 @@ function about() {
         <div className="div3">
           <img
             className="daniel-img"
-            src={
-              DanielImage  
-            }
+            src={"../../static/img/Daniel.jpg"}
             alt="Daniel image"
           />
           <h3 className="dev-name">Daniel / Front End Engineer</h3>
