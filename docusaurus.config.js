@@ -4,7 +4,7 @@ module.exports = {
   url: "https://techfellows.github.io'",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/techfellows.jpg",
+  favicon: "img/techfellows.svg",
   organizationName: "techfellows", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
       title: "TechFellows",
       logo: {
         alt: "My Site Logo",
-        src: "img/techfellows.jpg",
+        src: "img/techfellows.svg",
       },
       items: [
         {
