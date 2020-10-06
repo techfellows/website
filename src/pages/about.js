@@ -35,7 +35,7 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2>Techninal skills </h2>
+          <h2>Technical skills </h2>
           <h3>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
@@ -64,7 +64,7 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2>Techninal skills</h2>
+          <h2>Technical skills</h2>
           <h3>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
