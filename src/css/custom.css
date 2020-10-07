@@ -33,15 +33,17 @@
 .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  /*grid-template-rows: repeat(5, 1fr);*/
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin-bottom: 5%;
 }
 
 .div1 {
   grid-area: 1 / 2 / 2 / 5;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 30px;
   margin-top: 9%;
 }
@@ -54,19 +56,8 @@
   /* padding-bottom: 20px; */
   /* background-color: lawngreen; */
 }
-.div4 {
-  grid-area: 4 / 2 / 6 / 5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-top: 10px;
-  font-size: 20px;
-  border-radius: 10px;
-  color: white;
-  /* background-color: black; */
-}
 
-.div4 .tech {
+.tech {
   padding-top: 2%;
 
   height: 30%;
