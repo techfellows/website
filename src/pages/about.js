@@ -68,31 +68,7 @@ function about() {
             Hosting
           </h3>
         </div>
-        <div className="div4">
-          <div className="tech">
-            <h3>Thank you for visiting</h3>
-          </div>
-        </div>
       </div>
-      {/* <div className="container">
-        <div className="about-container">
-          <h1>Who are we ❓</h1>
-        </div>
-        <div className="about-img">
-          <img
-            className="daniel-img"
-            src={
-              "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
-            }
-          />
-          <img
-            className="mo-img"
-            src={
-              "https://images.unsplash.com/photo-1519669556878-63bdad8a1a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
-            }
-          />
-        </div>
-      </div> */}
     </Layout>
   );
 }
