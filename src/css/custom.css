@@ -116,3 +116,26 @@
 html[data-theme="dark"] .navbar__logo {
   filter: invert(100%);
 }
+
+/* FOOTER */
+footer .container {
+  margin-left: 30%;
+}
+
+footer .text--center {
+  margin-right: 40%;
+}
+
+/* media Queries */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* updated styles for mobile devices */
+  .hero__title {
+    font-size: 2rem;
+  }
+  footer .text--center {
+    margin-right: 60%;
+  }
+  .blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
+    font-size: 2rem !important;
+  }
+}

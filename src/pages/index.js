@@ -57,6 +57,7 @@ function Feature({ imageUrl, title, description }) {
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  console.log(siteConfig);
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -72,9 +73,9 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              to={useBaseUrl("Blog")}
             >
-              Get Started
+              Blogs
             </Link>
           </div>
         </div>

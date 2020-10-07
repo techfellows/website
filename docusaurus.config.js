@@ -61,6 +61,10 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/techfellows/website",
             },
+            {
+              label: "Dev.to",
+              href: "https://dev.to/",
+            },
           ],
         },
       ],
