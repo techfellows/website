@@ -85,7 +85,9 @@
   color: black;
   background-color: white;
 }
-
+a {
+  color: #7d47f4;
+}
 /* .about-img {
   width: 500px;
   display: flex;
