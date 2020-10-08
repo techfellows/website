@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{85:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"openclassrooms","name":"openclassrooms","count":1,"permalink":"/blog/tags/openclassrooms"}')}}]);
