@@ -24,6 +24,18 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* algorithms */
+.algorithm-section {
+  display: flex;
+  justify-content: center;
+}
+
+.algorithm-image {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+}
+
 /* about */
 
 .about-header {

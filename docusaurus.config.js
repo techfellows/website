@@ -28,6 +28,7 @@ module.exports = {
           position: "right",
         },
         { to: "/about", label: "About us", position: "left" },
+        { to: "/algorithm", label: "Algorithms 101", position: "left" },
       ],
     },
     footer: {
