@@ -6,5 +6,12 @@ module.exports = {
     "State Management": ["doc8"],
     HTML: ["doc6"],
     CSS: ["doc7"],
+    Algorithms: [
+      (this.someSidebar = {
+        BigO: ["doc9"],
+        Structures: ["doc10"],
+        Binary: ["doc11"],
+      }),
+    ],
   },
 };
