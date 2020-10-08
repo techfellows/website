@@ -6,6 +6,7 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
@@ -16,7 +17,6 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 }
-
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -35,6 +35,13 @@
   grid-template-columns: repeat(5, 1fr);
   /*grid-template-rows: repeat(5, 1fr);*/
   grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 5%;
+}
+.parent-mobile {
+  display: grid -moz-inline-grid;
+  grid-template-rows: auto auto;
+  align-items: center;
   grid-row-gap: 0px;
   margin-bottom: 5%;
 }
@@ -91,7 +98,13 @@ a {
 .mo-img {
   border-radius: 100%;
 }
-
+.headers-mobile {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: white;
+}
 .dev-name {
   display: flex;
   justify-content: center;
@@ -99,6 +112,12 @@ a {
   color: black;
   background-color: white;
   border-radius: 10%;
+}
+.dev-name-mobile {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: white;
 }
 .links a {
   /* background-color: black; */
