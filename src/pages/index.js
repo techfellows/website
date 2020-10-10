@@ -96,5 +96,8 @@ function Home() {
     </Layout>
   );
 }
+// meta tag
+Home.description =
+  "techfellows tech blog free online guides videos, tutorials & algorithm questions for all your developer needs. ";
 
 export default Home;
