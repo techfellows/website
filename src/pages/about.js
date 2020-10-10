@@ -12,6 +12,11 @@ const imgProfiles = {
   },
 };
 
+global.navigator = {
+  userAgent: "node",
+  navigator: "node",
+};
+
 function about() {
   function detectMob() {
     const toMatch = [
