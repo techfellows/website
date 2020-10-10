@@ -13,18 +13,36 @@ const imgProfiles = {
 };
 
 function about() {
+  function detectMob() {
+    const toMatch = [
+      /Android/i,
+      /webOS/i,
+      /iPhone/i,
+      /iPad/i,
+      /iPod/i,
+      /BlackBerry/i,
+      /Windows Phone/i,
+    ];
+
+    return toMatch.some((toMatchItem) => {
+      return navigator.userAgent.match(toMatchItem);
+    });
+  }
+
   const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
   const imgUrlDan = useBaseUrl(imgProfiles.daniel.imageUrl);
 
   return (
     <Layout title="About">
-      <div className="parent">
+      <div className={detectMob() ? "parent-mobile" : "parent"}>
         <div className="div1">
           <h1 className="about-header">Who are we ❓</h1>
         </div>
         <div className="div2">
           <img className="daniel-img" src={imgUrlMo} alt="Mohamed-Img" />
-          <h3 className="dev-name">Mohamed / Front End Engineer</h3>
+          <h3 className={detectMob() ? "dev-name-mobile" : "dev-name"}>
+            Mohamed / Front End Engineer
+          </h3>
           <p className="links">
             <a href="https://github.com/mohamedsgap">
               <img src="https://img.icons8.com/nolan/64/github.png" />
@@ -39,15 +57,19 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2>Technical skills </h2>
-          <h3>
+          <h2 className={detectMob() ? "headers-mobile" : ""}>
+            Technical skills{" "}
+          </h2>
+          <h3 className={detectMob() ? "headers-mobile" : ""}>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
           </h3>
         </div>
         <div className="div3">
           <img className="daniel-img" src={imgUrlDan} alt="Mohamed-Img" />
-          <h3 className="dev-name">Daniel / Front End Engineer</h3>
+          <h3 className={detectMob() ? "dev-name-mobile" : "dev-name"}>
+            Daniel / Front End Engineer
+          </h3>
           <p className="links">
             <a href="https://github.com/DanieIStewart">
               <img src="https://img.icons8.com/nolan/64/github.png" />
@@ -62,8 +84,10 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2>Technical skills</h2>
-          <h3>
+          <h2 className={detectMob() ? "headers-mobile" : ""}>
+            Technical skills
+          </h2>
+          <h3 className={detectMob() ? "headers-mobile" : ""}>
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
           </h3>
