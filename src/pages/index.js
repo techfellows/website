@@ -61,7 +61,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="techfellows tech blog free online guides videos covering coding, reactjs, javascript, html, css tutorials and algorithm questions for all your developer needs."
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
@@ -96,8 +96,5 @@ function Home() {
     </Layout>
   );
 }
-// meta tag
-Home.description =
-  "techfellows tech blog free online guides videos, tutorials & algorithm questions for all your developer needs. ";
 
 export default Home;
