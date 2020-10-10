@@ -72,6 +72,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} TechFellows.`,
     },
   },
+  themes: ["@docusaurus/theme-live-codeblock"],
   presets: [
     [
       "@docusaurus/preset-classic",

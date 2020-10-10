@@ -1,5 +1,5 @@
 ---
-id: doc9
+id: TwoNumberSum
 title: Two Number Sum
 ---
 
@@ -27,17 +27,36 @@ an empty array.
 
 Realize that for every number X in the input array, you are essentially trying to find a corresponding number Y such that X + Y = targetSum. With two variables in this equation known to you, it shouldn't be hard to solve for Y.
 
+```jsx live
+function twoSumNum() {
+  let answer = [];
+  //Write code below
+
+  let array = [1, 2, 3, 5, 6, 7, 8];
+  const target = 10;
+
+  //Dont change the button
+  return (
+    <div>
+      <h2>{target}</h2>
+    </div>
+  );
+}
+```
+
 <Highlight color="#3f2dff">Solution</Highlight>
 
-    function twoSumBest(array, target) {
-    const numsMap = new Map();
-    for (let i = 0; i < array.length; i++) {
-        if(numsMap.has(target - array[i])) {
-            return [numsMap.get(target - array[i], i)];
-            // get() returns a specified element associated with the specified key from the Map object.
-        } else {
-            numsMap.set(array[i], i);
-            //  set() adds or updates an element with a specified key and value to a Map object.
-        }
-      }
+```jsx
+function twoSumBest(array, target) {
+  const numsMap = new Map();
+  for (let i = 0; i < array.length; i++) {
+    if (numsMap.has(target - array[i])) {
+      return [numsMap.get(target - array[i], i)];
+      // get() returns a specified element associated with the specified key from the Map object.
+    } else {
+      numsMap.set(array[i], i);
+      //  set() adds or updates an element with a specified key and value to a Map object.
     }
+  }
+}
+```

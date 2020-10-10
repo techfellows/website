@@ -8,7 +8,7 @@ module.exports = {
     CSS: ["doc7"],
     Algorithms: [
       (this.someSidebar = {
-        "Coding Interview Questions": ["doc9"],
+        "Coding Interview Questions": ["TwoNumberSum"],
         Structures: ["doc10"],
         Binary: ["doc11"],
       }),
