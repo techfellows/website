@@ -14,7 +14,6 @@ const imgProfiles = {
 
 global.navigator = {
   userAgent: "node",
-  navigator: "node",
 };
 
 function about() {
