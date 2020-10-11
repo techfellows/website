@@ -28,6 +28,10 @@
 .algorithm-section {
   display: flex;
   justify-content: center;
+  background-color: darkslateblue;
+}
+.algorithm-section .codingBtn {
+  margin-top: 15%;
 }
 
 .algorithm-image {

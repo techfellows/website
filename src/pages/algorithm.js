@@ -10,15 +10,17 @@ function algorithm() {
   return (
     <Layout title="algorithm">
       <div className="algorithm-section">
-        <Link
-          className={clsx(
-            "button button--outline button--secondary button--lg",
-            styles.getStarted
-          )}
-          to={useBaseUrl("docs/TwoNumberSum")}
-        >
-          Algorithms
-        </Link>
+        <div className="codingBtn">
+          <Link
+            className={clsx(
+              "button button--outline button--secondary button--lg",
+              styles.getStarted
+            )}
+            to={useBaseUrl("docs/TwoNumberSum")}
+          >
+            Coding problems
+          </Link>
+        </div>
       </div>
     </Layout>
   );

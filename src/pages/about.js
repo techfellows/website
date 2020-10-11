@@ -11,10 +11,11 @@ const imgProfiles = {
     imageUrl: "img/Daniel.jpg",
   },
 };
-
-global.navigator = {
-  userAgent: "node",
-};
+const userAgentRef = window.navigator.userAgent;
+// console.log(userAgentRef);
+// window.navigator = {
+//   userAgent: "node",
+// };
 
 function about() {
   function detectMob() {
@@ -29,7 +30,8 @@ function about() {
     ];
 
     return toMatch.some((toMatchItem) => {
-      return navigator.userAgent.match(toMatchItem);
+      console.log(toMatchItem);
+      return userAgentRef.match(toMatchItem);
     });
   }
 
