@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
+import { navigator } from "global";
 
 const imgProfiles = {
   mohamed: {
@@ -11,30 +12,25 @@ const imgProfiles = {
     imageUrl: "img/Daniel.jpg",
   },
 };
-const userAgentRef = window.navigator.userAgent;
-// console.log(userAgentRef);
-// window.navigator = {
-//   userAgent: "node",
-// };
+
+function detectMob() {
+  const toMatch = [
+    /Android/i,
+    /webOS/i,
+    /iPhone/i,
+    /iPad/i,
+    /iPod/i,
+    /BlackBerry/i,
+    /Windows Phone/i,
+  ];
+
+  return toMatch.some((toMatchItem) => {
+    const renderedVal = navigator.userAgent.match(toMatchItem);
+    return renderedVal;
+  });
+}
 
 function about() {
-  function detectMob() {
-    const toMatch = [
-      /Android/i,
-      /webOS/i,
-      /iPhone/i,
-      /iPad/i,
-      /iPod/i,
-      /BlackBerry/i,
-      /Windows Phone/i,
-    ];
-
-    return toMatch.some((toMatchItem) => {
-      console.log(toMatchItem);
-      return userAgentRef.match(toMatchItem);
-    });
-  }
-
   const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
   const imgUrlDan = useBaseUrl(imgProfiles.daniel.imageUrl);
 
