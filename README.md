@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/techfellows/website.svg?branch=main)](https://travis-ci.org/techfellows/website)
+
 # TechFellows
 
 This is the official website of TechFellows, it's a blog project for helping beginner developers to learn new technology.
