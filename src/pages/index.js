@@ -37,6 +37,36 @@ const features = [
       </>
     ),
   },
+  {
+    title: "Powered by Mohamed ",
+    imageUrl: "img/featImg1.png",
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: "Powered by Mohamed ",
+    imageUrl: "img/featImg2.png",
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: "Powered by Mohamed ",
+    imageUrl: "img/featImg3.png",
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
 ];
 
 function Feature({ imageUrl, title, description }) {
@@ -63,11 +93,21 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="techfellows tech blog free online guides videos covering coding, reactjs, javascript, html, css tutorials and algorithm questions for all your developer needs."
     >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      {/*<header className={clsx("hero hero--primary", styles.heroBanner)}>*/}
+      <header className={styles.features}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
+              )}
+              to={useBaseUrl("docs")}
+            >
+              Learn a new tech tutorial
+            </Link>
             <Link
               className={clsx(
                 "button button--outline button--secondary button--lg",
