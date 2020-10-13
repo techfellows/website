@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -17,6 +17,11 @@ function about() {
   const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
   const imgUrlDan = useBaseUrl(imgProfiles.daniel.imageUrl);
 
+  useEffect(() => {
+    Window.navigator = {
+      userAgent: "node",
+    };
+  }, []);
   return (
     <Layout title="About">
       <div className={detectMob() ? "parent-mobile" : "parent"}>
