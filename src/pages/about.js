@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import "../css/custom.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import window from "global/window";
+import global from "global";
 
 const imgProfiles = {
   mohamed: {
@@ -25,7 +26,11 @@ function detectMob() {
   ];
 
   return toMatch.some((toMatchItem) => {
-    const renderedVal = window.navigator.userAgent.match(toMatchItem);
+    if (window === "undefined") {
+      const renderedVal = global.navigator.userAgent.match(toMatchItem);
+    } else {
+      const renderedVal = window.navigator.userAgent.match(toMatchItem);
+    }
     return renderedVal;
   });
 }
