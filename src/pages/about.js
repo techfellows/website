@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import detectMob from "../utils";
+import window from "global/window";
 
 const imgProfiles = {
   mohamed: {
@@ -13,15 +13,27 @@ const imgProfiles = {
   },
 };
 
+function detectMob() {
+  const toMatch = [
+    /Android/i,
+    /webOS/i,
+    /iPhone/i,
+    /iPad/i,
+    /iPod/i,
+    /BlackBerry/i,
+    /Windows Phone/i,
+  ];
+
+  return toMatch.some((toMatchItem) => {
+    const renderedVal = window.navigator.userAgent.match(toMatchItem);
+    return renderedVal;
+  });
+}
+
 function about() {
   const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
   const imgUrlDan = useBaseUrl(imgProfiles.daniel.imageUrl);
 
-  useEffect(() => {
-    Window.navigator = {
-      userAgent: "node",
-    };
-  }, []);
   return (
     <Layout title="About">
       <div className={detectMob() ? "parent-mobile" : "parent"}>
