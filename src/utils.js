@@ -1,8 +1,7 @@
-/*
-export default global.navigator = {
+Window.navigator = {
   userAgent: "node",
 };
-*/
+
 export default function detectMob() {
   const toMatch = [
     /Android/i,
