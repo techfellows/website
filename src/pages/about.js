@@ -27,11 +27,10 @@ function detectMob() {
 
   return toMatch.some((toMatchItem) => {
     if (window === "undefined") {
-      const renderedVal = global.navigator.userAgent.match(toMatchItem);
+      return global.navigator.userAgent.match(toMatchItem);
     } else {
-      const renderedVal = window.navigator.userAgent.match(toMatchItem);
+      return window.navigator.userAgent.match(toMatchItem);
     }
-    return renderedVal;
   });
 }
 
