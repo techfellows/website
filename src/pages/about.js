@@ -40,13 +40,13 @@ function about() {
 
   return (
     <Layout title="About">
-      <div className={detectMob() ? "parent-mobile" : "parent"}>
+      <div>
         <div className="div1">
           <h1 className="about-header">Who are we ❓</h1>
         </div>
         <div className="div2">
           <img className="daniel-img" src={imgUrlMo} alt="Mohamed-Img" />
-          <h3 className={detectMob() ? "dev-name-mobile" : "dev-name"}>
+          <h3>
             Mohamed / Front End Engineer
           </h3>
           <p className="links">
@@ -63,17 +63,17 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2 className={detectMob() ? "headers-mobile" : ""}>
+          <h2 >
             Technical skills{" "}
           </h2>
-          <h3 className={detectMob() ? "headers-mobile" : ""}>
+          <h3 >
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
           </h3>
         </div>
         <div className="div3">
           <img className="daniel-img" src={imgUrlDan} alt="Mohamed-Img" />
-          <h3 className={detectMob() ? "dev-name-mobile" : "dev-name"}>
+          <h3>
             Daniel / Front End Engineer
           </h3>
           <p className="links">
@@ -90,10 +90,10 @@ function about() {
               <img src="https://img.icons8.com/nolan/64/source-code.png" />
             </a>
           </p>
-          <h2 className={detectMob() ? "headers-mobile" : ""}>
+          <h2>
             Technical skills
           </h2>
-          <h3 className={detectMob() ? "headers-mobile" : ""}>
+          <h3 >
             React, Redux. Javascript, HTML(5), CSS(4), Github, Deployment, SASS,
             Hosting
           </h3>
