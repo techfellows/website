@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import "../css/custom.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import window from "global/window";
-import global from "global";
+// import window from "global/window";
+// import global from "global";
 
 const imgProfiles = {
   mohamed: {
@@ -14,25 +14,25 @@ const imgProfiles = {
   },
 };
 
-function detectMob() {
-  const toMatch = [
-    /Android/i,
-    /webOS/i,
-    /iPhone/i,
-    /iPad/i,
-    /iPod/i,
-    /BlackBerry/i,
-    /Windows Phone/i,
-  ];
+// function detectMob() {
+//   const toMatch = [
+//     /Android/i,
+//     /webOS/i,
+//     /iPhone/i,
+//     /iPad/i,
+//     /iPod/i,
+//     /BlackBerry/i,
+//     /Windows Phone/i,
+//   ];
 
-  return toMatch.some((toMatchItem) => {
-    if (window === "undefined") {
-      return global.navigator.userAgent.match(toMatchItem);
-    } else {
-      return window.navigator.userAgent.match(toMatchItem);
-    }
-  });
-}
+//   return toMatch.some((toMatchItem) => {
+//     if (window === "undefined") {
+//       return global.navigator.userAgent.match(toMatchItem);
+//     } else {
+//       return window.navigator.userAgent.match(toMatchItem);
+//     }
+//   });
+// }
 
 function about() {
   const imgUrlMo = useBaseUrl(imgProfiles.mohamed.imageUrl);
