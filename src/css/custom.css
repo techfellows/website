@@ -163,11 +163,11 @@ html[data-theme="dark"] .navbar__logo {
 
 /* FOOTER */
 footer .container {
-  margin-left: 30%;
+  text-align: center;
 }
 
 footer .text--center {
-  margin-right: 40%;
+  text-align: center;
 }
 
 /* media Queries */
