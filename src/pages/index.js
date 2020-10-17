@@ -39,7 +39,7 @@ const features = [
   },
   {
     title: "Powered by Mohamed ",
-    imageUrl: "img/featImg1.png",
+    imageUrl: "img/featImg1.svg",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -49,7 +49,7 @@ const features = [
   },
   {
     title: "Powered by Mohamed ",
-    imageUrl: "img/featImg2.png",
+    imageUrl: "img/featImg2.svg",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -59,7 +59,7 @@ const features = [
   },
   {
     title: "Powered by Mohamed ",
-    imageUrl: "img/featImg3.png",
+    imageUrl: "img/featImg3.svg",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
