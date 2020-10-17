@@ -22,6 +22,16 @@ module.exports = {
           label: "Tutorials",
           position: "left",
         },
+        {
+          to: "docs/algoIntro",
+          label: "Algorithms 101",
+          position: "left",
+        },
+        {
+          to: "docs/dsIntro",
+          label: "Data Structures",
+          position: "left",
+        },
         { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/techfellows/website",
@@ -29,7 +39,6 @@ module.exports = {
           position: "right",
         },
         { to: "/about", label: "About us", position: "left" },
-        { to: "/algorithm", label: "Algorithms 101", position: "left" },
       ],
     },
     footer: {
