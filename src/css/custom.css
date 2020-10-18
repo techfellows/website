@@ -70,30 +70,29 @@
   grid-row-gap: 0px;
   margin-bottom: 5%;
 }
-.parent-mobile {
+/* .parent-mobile {
   display: grid -moz-inline-grid;
   grid-template-rows: auto auto;
   align-items: center;
   grid-row-gap: 0px;
   margin-bottom: 5%;
-}
+} */
 
 .div1 {
-  grid-area: 1 / 2 / 2 / 5;
+  grid-area: 2 / 2 / 2 / 5;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  margin-top: 9%;
+  margin-top: 3%;
 }
 .div2 {
   grid-area: 2 / 2 / 4 / 3;
-  /* padding-bottom: 20px; */
+  margin-top: 30%;
 }
 .div3 {
   grid-area: 2 / 4 / 4 / 5;
-  /* padding-bottom: 20px; */
-  /* background-color: lawngreen; */
+  margin-top: 30%;
 }
 
 .tech {
