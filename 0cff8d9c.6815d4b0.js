@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{58:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"the-web-developer-bootcamp-2020","name":"the web developer bootcamp 2020","count":1,"permalink":"/blog/tags/the-web-developer-bootcamp-2020"}')}}]);
