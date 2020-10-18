@@ -37,36 +37,36 @@ const features = [
       </>
     ),
   },
-  {
-    title: "Powered by Mohamed ",
-    imageUrl: "img/featImg1.png",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: "Powered by Mohamed ",
-    imageUrl: "img/featImg2.png",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: "Powered by Mohamed ",
-    imageUrl: "img/featImg3.png",
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // {
+  //   title: "Powered by Mohamed ",
+  //   imageUrl: "img/featImg1.png",
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: "Powered by Mohamed ",
+  //   imageUrl: "img/featImg2.png",
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: "Powered by Mohamed ",
+  //   imageUrl: "img/featImg3.png",
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({ imageUrl, title, description }) {
