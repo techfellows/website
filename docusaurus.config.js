@@ -16,14 +16,12 @@ module.exports = {
       },
       items: [
         {
-          type: "doc",
-          docId: "doc1",
+          to: "docs/doc2",
           label: "Tutorials",
           position: "left",
         },
         {
-          type: "doc",
-          docId: "introduction",
+          to: "docs/introduction",
           label: "Algorithms & Data Structures",
           position: "left",
         },
