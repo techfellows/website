@@ -23,13 +23,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "docs/algoIntro",
-          label: "Algorithms 101",
-          position: "left",
-        },
-        {
-          to: "docs/dsIntro",
-          label: "Data Structures",
+          to: "docs/introduction",
+          label: "Algorithms & Data Structures",
           position: "left",
         },
         { to: "blog", label: "Blog", position: "left" },

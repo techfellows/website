@@ -7,10 +7,13 @@ module.exports = {
     HTML: ["doc6"],
     CSS: ["doc7"],
   },
-  algorithmsSidebar: {
-    "Algorithms 101": ["algoIntro", "TwoNumberSum", "ValidateSubsequence"],
-  },
-  dataStrucutreSidebar: {
-    "Data Structures": ["dsIntro", "doc10", "doc11"],
+  algorithmsAndDataStructuresSidebar: {
+    "Algorithms 101": [
+      "introduction",
+      "TwoNumberSum",
+      "ValidateSubsequence",
+      "doc10",
+      "doc11",
+    ],
   },
 };
