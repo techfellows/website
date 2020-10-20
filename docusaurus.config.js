@@ -1,7 +1,6 @@
 module.exports = {
   title: "TechFellows",
-  tagline:
-    "Tech blog & free online guides React, front end",
+  tagline: "Tech blog & free online guides React, front end",
   url: "https://techfellows.github.io'",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -17,13 +16,14 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
+          type: "doc",
+          docId: "doc1",
           label: "Tutorials",
           position: "left",
         },
         {
-          to: "docs/introduction",
+          type: "doc",
+          docId: "introduction",
           label: "Algorithms & Data Structures",
           position: "left",
         },

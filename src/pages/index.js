@@ -101,21 +101,30 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg",
+                "button button--outline button--secondary button--lg mx-3 px-3",
                 styles.getStarted
               )}
               to={useBaseUrl("docs")}
             >
-              Learn a new tech tutorial
+              Learn a tutorial.
             </Link>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg",
+                "button button--outline button--secondary button--lg mx-3 px-3",
                 styles.getStarted
               )}
               to={useBaseUrl("Blog")}
             >
-              Blogs
+              Read a blog.
+            </Link>
+            <Link
+              className={clsx(
+                "button button--outline button--secondary button--lg mx-3 px-3",
+                styles.getStarted
+              )}
+              to={useBaseUrl("docs/introduction")}
+            >
+              Solve a problem.
             </Link>
           </div>
         </div>

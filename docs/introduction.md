@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Algorothms & Data Structures.
+title: About
 ---
 
 ## Algorothms & Data Structures.
