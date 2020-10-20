@@ -1,7 +1,7 @@
 module.exports = {
   title: "TechFellows",
   tagline:
-    "A tech blog free online guides videos covering coding, reactjs, javascript, html, css tutorials and algorithm questions for all your developer needs.",
+    "Tech blog & free online guides React, front end",
   url: "https://techfellows.github.io'",
   baseUrl: "/",
   onBrokenLinks: "throw",

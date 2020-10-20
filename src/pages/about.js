@@ -40,7 +40,7 @@ function about() {
 
   return (
     <Layout title="About">
-      <div>
+      <div className='parent'>
         <div className="div1">
           <h1 className="about-header">Who are we ❓</h1>
         </div>
