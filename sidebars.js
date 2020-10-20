@@ -13,7 +13,11 @@ module.exports = {
     "introduction",
     "TwoNumberSum",
     "ValidateSubsequence",
-    "doc10",
-    "doc11",
+    "two-sum",
+    "add-two-numbers",
+    "trapping-rain-water",
+    "maximum-sum-subarray",
+    "word-search",
+    "subsets-ii",
   ],
 };
