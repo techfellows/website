@@ -130,7 +130,9 @@
 }
 a {
   color: #7d47f4;
+  margin-right: 15px;
 }
+
 /* .about-img {
   width: 500px;
   display: flex;
@@ -194,5 +196,23 @@ footer .text--center {
   }
   .blogPostTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem- {
     font-size: 2rem !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .about-header {
+    display: flex;
+    justify-content: center;
+  }
+  .div2 {
+    /* display: block;
+    width: 100%; */
+    /* grid-column: full; */
+    /* grid-area: auto; */
+  }
+  .div3 {
+    /* display: block; */
+    /* grid-column: full; */
+    /* 
+    grid-area: 2 / 4 / 4 / 5; */
   }
 }

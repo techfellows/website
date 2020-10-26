@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import "../css/custom.css";
 
 const features = [
   {
@@ -101,25 +102,25 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg mx-3 px-3",
+                "button button--outline button--secondary button--lg mx-3 px-3 tutorial",
                 styles.getStarted
               )}
               to={useBaseUrl("docs")}
             >
-              Learn a tutorial.
+              Tutorials
             </Link>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg mx-3 px-3",
+                "button button--outline button--secondary button--lg mx-3 px-3 blog",
                 styles.getStarted
               )}
               to={useBaseUrl("Blog")}
             >
-              Read a blog.
+              Blogs
             </Link>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg mx-3 px-3",
+                "button button--outline button--secondary button--lg mx-3 px-3 problem",
                 styles.getStarted
               )}
               to={useBaseUrl("docs/introduction")}

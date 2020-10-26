@@ -9,3 +9,6 @@
 .div1 {
   grid-area: 1 / 1 / 3 / 2;
 }
+.tutorial {
+  margin-right: 20px;
+}
