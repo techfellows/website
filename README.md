@@ -2,7 +2,7 @@
 
 # TechFellows
 
-This is the official website of TechFellows, it's a blog project for helping beginner developers to learn new technology.
+This is the official website of TechFellows, it's a blog project for helping beginner developers to learn new technology. Focus on data structure and algorithms and React.JS
 
 ## Contribution
 
@@ -16,4 +16,4 @@ $ yarn
 $ yarn start
 ```
 
-**Made with ♥️ by passionate web developers**
+**Made with ♥️ by passionate web developers** Daniel & Mohamed :)
