@@ -18,6 +18,8 @@ module.exports = {
     "trapping-rain-water",
     "maximum-sum-subarray",
     "word-search",
+    "subsets",
     "subsets-ii",
+    "reverse-nodes-in-k-group",
   ],
 };
